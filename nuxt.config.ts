@@ -24,5 +24,8 @@ export default defineNuxtConfig({
                 { children: 'Javascript is required' }
             ]
         }
+    },
+    nitro: {
+        preset: 'node-server'
     }
 })
