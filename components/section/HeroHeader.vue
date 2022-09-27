@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center  overflow-hidden p-[calc(50px_+_5%)_0]">
+  <div class="flex justify-center p-[calc(50px_+_5%)_0]">
     <div class="justify-around text-primaryWhite w-[70%]">
       <div class="text-[inherit] ">
         <h1 class="font-light uppercase tracking-widTitre text-titreHeroH1">Createur de site à brest, Apprenti Web Developper</h1>
