@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed absolute flex items-center z-9996 justify-between p-[calc(15px_+_2%)] lg: mx-auto sticky top-0">
+  <header class="fixed absolute flex items-center z-30 justify-between p-[calc(15px_+_2%)] lg: mx-auto sticky top-0">
     <nuxt-link to="/">
       <svg class="mix-blend-difference w-4/5" width="263" height="34" viewBox="0 0 263 34" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g style="mix-blend-mode:difference">
@@ -23,9 +23,7 @@
 </template>
 
 <script>
-export default {
-  name: "Header"
-}
+
 </script>
 
 <style scoped>

@@ -13,7 +13,8 @@ module.exports = {
         gilroy: ["gilroy","sans-serif"],
       },
       colors: {
-        primaryWhite: '#EDF1F3'
+        primaryWhite: '#EDF1F3',
+        primaryBlack: '#16141D'
       },
       fontSize: {
         'xs': '.75rem',

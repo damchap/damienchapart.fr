@@ -2,6 +2,13 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+    viewport: 'width=device-width, initial-scale=1.0',
+    router: {
+        linkActiveClass: 'font-extrabold' // tailwind class with custom color
+    },
+    build: {
+        transpile: ['gsap'],
+    },
     css: [
         '@/assets/css/main.css',
     ],

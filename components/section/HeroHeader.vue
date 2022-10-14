@@ -10,14 +10,14 @@
             Chapart Damien
           </div>
         </div>
-        <div class="m-textHero overflow-hidden">
-          <div class="flex items-center">
+        <div class="m-textHero overflow-hidden ">
+          <div class="flex items-center overflow-hidden">
             développons&nbsp;
-            <div class="text-transparent bg-clip-text bg-gradient-to-r from-[#22FCB0] to-[#2181FA]">
-              <div v-for="(slide, index) of slides" :key="index" v-if="1"  class="main__slide-image">
-                {{index}}
-                {{slide.headline}}
-              </div>
+            <div class="mainslide w-full h-full text-transparent bg-clip-text bg-gradient-to-r from-[#22FCB0] to-[#2181FA]  inline-block overflow-hidden">
+                <div  ref="mainslidimage " class=" active overflow-hidden" > <!--v-for="(slide, index) of slides" :key="index" v-if="1" -->
+                  vos projet
+                </div>
+
             </div>
           </div>
         </div>
@@ -33,20 +33,57 @@
 </template>
 
 <script>
+import {gsap} from "gsap";
+
 export default {
   name: "HeroHeader",
+  mounted() {
+    const nwe = 3;//this.$refs.mainslidimage.length;
+
+
+    const we = gsap.timeline({
+      paused: true,
+      repeat: 2
+    });
+
+    //we.from(this.$refs.maislideActive, {duration:1,  y: '100%', ease: Expo.easeInOut}, 1);
+
+
+    /**we.to('.mainslide > div',{
+      duration: 1,
+      y: '-100%',
+      ease: Expo.easeInOut,
+      yoyo: true
+    }, 1);
+
+    we.to('.mainslide > div:first-child', {
+      duration: 1,
+      y: '100%',
+      delay: nwe - 1,
+      yoyo: true
+    });
+    we.to('.mainslide > div:first-child', {
+      duration: 1,
+      y: '0%',
+      delay: nwe - 1,
+      ease: Expo.easeInOut,
+      yoyo: true
+    });**/
+
+
+  },
   data() {
     return {
       currentActiveSlide: 0,
       slides: [
         {
-          headline: 'Lorem ipsum dolor sit amet',
+          headline: 'Lorem ',
         },
         {
-          headline: 'Consectetur adipiscing elit, sed do.',
+          headline: 'Consectetur',
         },
         {
-          headline: 'Eiusmod tempor incididunt ut labore.',
+          headline: 'Eiusmod',
         },
       ]
     }
