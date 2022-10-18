@@ -29,8 +29,8 @@ module.exports = {
         '5xl': '3rem',
         '6xl': '4rem',
         '7xl': '5rem',
-        titreHero: 'calc(25px + 50 * (100vw - 320px)/1080)',
-        titreHeroH1: 'calc(12px + 1 * (100vw - 320px)/1080)',
+        titreHero: 'calc(20px + 50 * (100vw - 320px)/1080)',
+        titreHeroH1: 'calc(15px + 1 * (100vw - 320px)/1080)',
       },
       letterSpacing: {
         widTitre: 'calc(2px + 1 * (100vw - 320px)/1080)',

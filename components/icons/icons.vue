@@ -1,6 +1,6 @@
 <template>
     <svg :width="width" :height="height" :alt="iconSelect">
-        <use  :xlink:href="'./assets/ClassIcons.svg#' + iconSelect" s></use>
+        <use  :xlink:href="'' + iconSelect" s></use>
     </svg>  
 </template>
 <script>

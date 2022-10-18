@@ -1,9 +1,9 @@
 <template>
     <div class="overflow-hidden font-gilroy">
       <Section-Header />
-        <div class="flex flex-grow container m-auto justify-center text-center py-16">
+        <div class="flex flex-grow container m-auto justify-center text-center text-right py-16">
             <div class="justify-center text-center">
-                <h1 class="font-light uppercase text-titreHeroH1">performance webmarketing</h1>
+                <h1 class="font-light uppercase text-titreHeroH1">Damien Chapart</h1>
                 <h2 class="font-extrabold text-titreHero whitespace-nowrap leading-[1.2] ">Mentions légales</h2>
             </div>
             
@@ -13,13 +13,13 @@
             <h2 class="font-extrabold text-titrePole overflow-hidden">Identification de l'éditeur</h2>
             <p class="pb-3">
                 Les présentes mentions légales fixent les modalités d’utilisation du site
-                <NuxtLink to="https://performance-webmarketing.fr" target="_blank">https://performance-webmarketing.fr/</NuxtLink></p>
+                <NuxtLink to="https://damienchapart.fr" target="_blank">https://damienchapart.fr/</NuxtLink></p>
             <p class="pb-1">
                 Conformément aux dispositions des articles 6-III et 19 de la loi pour la Confiance dans l’Économie
                 Numérique, nous vous informons que :
             </p>
             <ul class="list-disc pl-3">
-                <li>L’éditeur et le directeur de la publication du site : <NuxtLink to="https://performance-webmarketing.fr" target="_blank">https://performance-webmarketing.fr/</NuxtLink>
+                <li>L’éditeur et le directeur de la publication du site : <NuxtLink to="https://damienchapart.fr" target="_blank">https://damienchapart.fr/</NuxtLink>
                     <br> Adresse : 60 rue d’aiguillon, 29200, Brest
                 </li>
                 <li>L’hébergeur du site est : pw-hosting.fr</li>
@@ -28,7 +28,7 @@
             <h2 class="font-extrabold text-titrePole overflow-hidden">Informatique et Liberté :</h2>
             <p class="pb-1">Les données personnelles collectées sur le site ne seront en aucun cas distribuées à des tiers, ni vendues,
                 ni louées, ni prêtées. Les traitements automatisés de données nominatives réalisés à partir du site
-                <NuxtLink to="https://performance-webmarketing.fr" target="_blank">https://performance-webmarketing.fr/</NuxtLink>  ont donc été traités en conformité avec ces exigences.
+                <NuxtLink to="https://damienchapart.fr" target="_blank">https://damienchapart.fr/</NuxtLink>  ont donc été traités en conformité avec ces exigences.
             </p>
             <p class="pb-1">
                 L’utilisateur est notamment informé qu’en application du Réglement Général sur la Protection des Données
@@ -50,8 +50,8 @@
             <h2 class="font-extrabold text-titrePole overflow-hidden">Propriété intellectuelle :</h2>
             <p class="pb-1">
                 La structure générale ainsi que les textes, images et vidéos, son savoir-faire et tous les autres éléments
-                composant le blog sont la propriété exclusive de l'entreprise performance webmarketing, fondateur du site
-                https://performance-webmarketing.fr/, sauf mention contraire.
+                composant le blog sont la propriété exclusive de l'entreprise Damien Chapart, fondateur du site
+                https://damienchapart.fr/, sauf mention contraire.
             </p>
 
             <p class="pb-1">
