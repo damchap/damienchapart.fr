@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <div id="smooth-wrapper" class="font-gilroy bg-gradient-to-r from-[#16141C] to-[#09080b] text-white">
-      <div id="smooth-content" >
-        <Section-Header />
+  <div >
+
         <div class="flex flex-col container m-auto">
           <div class="basis-2/3 text-primaryWhite  mt-80">
             <div class="text-[inherit] ">
@@ -64,11 +62,6 @@
           <h3 class="text-2xl">Développement</h3>
         </div>
       </div>
-    </div>
-  </div>
-
-
-
 </template>
 
 <script >

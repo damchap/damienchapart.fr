@@ -1,5 +1,8 @@
 <template>
-  <NuxtPage class="font-gilroy"/>
+  <NuxtLayout>
+    <NuxtPage class="font-gilroy"/>
+  </NuxtLayout>
+
 </template>
 
 <script setup>

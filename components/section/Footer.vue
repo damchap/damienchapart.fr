@@ -25,8 +25,8 @@
         <div class="basis-1/4 flex flex-col justify-center text-center py-2">
           <div class="pb-1 pt-7 text-[#5C5C5C]">Nous contacter</div>
           <div><a href="tel:+33 6 52 28 05 05" class="text-xs hover:underline">+33 6 52 28 05 05</a></div>
-          <div><a href="mailto:contact@performance-webmarketing.fr"
-                  class="text-xs hover:underline">contact@performance-webmarketing.fr</a></div>
+          <div><a href="mailto:contact@damienchapart.fr"
+                  class="text-xs hover:underline">contact@damienchapart.fr</a></div>
         </div>
         <div class="basis-1/4 flex flex-col justify-center text-center py-2 ">
           <div class="pb-1 text-[#5C5C5C] ">Ou suis-je ?</div>
