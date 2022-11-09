@@ -1,6 +1,5 @@
 <template>
     <div class="overflow-hidden font-gilroy">
-      <Section-Header />
         <div class="flex flex-grow container m-auto justify-center text-center text-right py-16">
             <div class="justify-center text-center">
                 <h1 class="font-light uppercase text-titreHeroH1">Damien Chapart</h1>
@@ -14,7 +13,7 @@
             <p class="pb-3">
                 Les présentes mentions légales fixent les modalités d’utilisation du site
                 <NuxtLink to="https://damienchapart.fr" target="_blank">https://damienchapart.fr/</NuxtLink></p>
-            <p class="pb-1">
+            <p class="pb-1 font-extrabold ">
                 Conformément aux dispositions des articles 6-III et 19 de la loi pour la Confiance dans l’Économie
                 Numérique, nous vous informons que :
             </p>
@@ -98,7 +97,6 @@
            </p> 
 
         </div>
-        <section-footer />
     </div>
 
 </template>

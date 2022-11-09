@@ -27,7 +27,7 @@ export default {
       smooth: 1,               // how long (in seconds) it takes to "catch up" to the native scroll position
       effects: true,           // looks for data-speed and data-lag attributes on elements
       smoothTouch: 0.1,  // look for data-speed and data-lag attributes on elements and animate accordingly
-    })
+    });
 
 
   },
