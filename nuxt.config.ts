@@ -14,7 +14,7 @@ export default defineNuxtConfig({
         BlankLine: true,
       },
       sitemap: {
-        hostname: `https://transcendent-palmier-e62b36.netlify.app/sitemap.xml`,
+        hostname: `https://dev.damienchapart.fr/sitemap.xml`,
       },
       security: {
         requestSizeLimiter: {
@@ -99,7 +99,7 @@ export default defineNuxtConfig({
         },
       },
     router: {
-        
+
         linkActiveClass: 'font-extrabold' // tailwind class with custom color
     },
     build: {
@@ -114,5 +114,10 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
+    nitro: {
+        output: {
+          dir: '@/dist'
+        }
+      }
     
 })
