@@ -25,6 +25,7 @@
     "gsap": "npm:@gsap/shockingly@^3.11.2",
     "nodemailer": "^6.8.0",
     "nuxt-security": "^0.7.0",
+    "sitemap": "^7.1.1",
     "validator": "^13.7.0",
     "vue3-carousel": "^0.1.46"
   }
