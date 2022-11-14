@@ -58,22 +58,22 @@
           </div>
           <div class="flex-col justify-end justify-items-end text-right text-[#5C5C5C]">
             <div class="justify-end ">
-              <nuxt-link to="Mention-legales" class="text-xs hover:underline hover:text-white">
+              <nuxt-link to="/Mention-legales" class="text-xs hover:underline hover:text-white">
                 Mentions légales
               </nuxt-link>
             </div>
             <div>
-              <nuxt-link to="/Politique-de-confidentialite" class="text-xs hover:underline hover:text-white">
+              <nuxt-link to="/Mention-legales" class="text-xs hover:underline hover:text-white">
                 Politique de confidentialité
               </nuxt-link>
             </div>
             <div>
-              <nuxt-link to="/Utilisation-des-cookie" class="text-xs hover:underline hover:text-white">
+              <nuxt-link to="/Mention-legales" class="text-xs hover:underline hover:text-white">
                 Utilisation des cookie
               </nuxt-link>
             </div>
             <div>
-              <nuxt-link to="/sitemap" class="text-xs hover:underline hover:text-white">
+              <nuxt-link to="/Mention-legales" class="text-xs hover:underline hover:text-white">
                 Plan du site
               </nuxt-link>
             </div>

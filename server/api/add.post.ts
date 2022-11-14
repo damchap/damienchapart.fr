@@ -1,5 +1,5 @@
 import { useQuery, useBody } from "h3";
-import { add } from "../lib/firestore";
+import { add } from "../lib/firebase/firestore";
 
 export default defineEventHandler(async (event) => {
   try {

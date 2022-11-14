@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col lg:flex-row w-[250vw] flex-nowrap et_builder_inner_content bg-primaryWhite">
+  <div class="flex flex-col lg:flex-row w-[550vw] flex-nowrap et_builder_inner_content bg-primaryWhite">
     <div  class="et_tail w-screen bg-clip-content text-white flex flex-row justify-center items-center  h-screen bg-[url('/img/teisseire-Cuisine-brest.png')] bg-no-repeat bg-cover">
       <div class="flex flex-col justify-center items-center ">
         <span class="font-light uppercase tracking-widTitre text-titreHeroH1 text-white">projet efectué en stage</span>
@@ -33,6 +33,10 @@
       <div class="flex flex-col justify-center items-center">
         <img src="/img/creation/petanque_finistere/Mockup_full_petanque_finistere.webp">
       </div>
+
+    </div>
+    <div class=" w-[70vw] bg-clip-content bg-[url('/img/creation/petanque_finistere/bg_petanque_finistere.webp')] bg-no-repeat bg-cover">
+
     </div>
   </div>
 </template>
