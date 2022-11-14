@@ -99,7 +99,6 @@ export default defineNuxtConfig({
         },
       },
     router: {
-
         linkActiveClass: 'font-extrabold' // tailwind class with custom color
     },
     build: {
@@ -114,10 +113,6 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
-    nitro: {
-        output: {
-          dir: '@/dist'
-        }
-      }
+    
     
 })
