@@ -7,7 +7,13 @@ export default defineNuxtConfig({
         "nuxt-security",
         "~/modules/sitemap",
         "@nuxtjs/robots",
+        "nuxt-icons",
+        "nuxt-icon",
+        '@nuxtjs/color-mode'
     ],
+    colorMode: {
+      classSuffix: ''
+    },
       robots: {
         UserAgent: "*",
         Disallow: "/",

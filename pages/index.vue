@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-white">
+  <div class="bg-white dark:bg-gradient-to-r dark:from-[#16141C] dark:to-[#09080b]">
           <section-HeroHeader />
-          <main class="text-primaryBlack" >
+          <main class="text-primaryBlack dark:text-white" >
             <div class="flex flex-col items-center  h-full mt-24">
               <h2 class="font-light uppercase tracking-widTitre text-titreHeroH1 ">LES PROJETS FAIT AVEC VOUS !</h2>
               <h3 class="text-6xl font-bold ">Nos études de cas</h3>
