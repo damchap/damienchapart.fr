@@ -1,5 +1,6 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  
     modules: [
         "@nuxt/image-edge",
         "@nuxtjs/tailwindcss",
@@ -9,14 +10,17 @@ export default defineNuxtConfig({
         "@nuxtjs/robots",
         "nuxt-icons",
         "nuxt-icon",
-        '@nuxtjs/color-mode'
+        '@nuxtjs/color-mode',
+        '@nuxt/content'
     ],
+    content: {
+      // https://content.nuxtjs.org/api/configuration
+    },
     colorMode: {
       classSuffix: ''
     },
       robots: {
         UserAgent: "*",
-        Disallow: "/",
         BlankLine: true,
       },
       sitemap: {
