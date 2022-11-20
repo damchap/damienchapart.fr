@@ -60,7 +60,7 @@ export default defineNuxtConfig({
             // <meta name="twitter:card" content="summary">
             { name: "twitter:card", content: "summary" },
             { name: "twitter:site", content: "@agence_web" },
-            { name: "twitter:title", content: "Agence perfromance webmarketing" },
+            { name: "twitter:title", content: "portfolio Damien Chapart" },
             {
               name: "twitter:description",
               content:
@@ -72,7 +72,7 @@ export default defineNuxtConfig({
                 "https://agence-webmarketing.fr/images/mokup-Cuissine Teisseire.png",
             },
             // <meta property="og:title" content="My amazing site">
-            { property: "og:title", content: "Agence perfromance webmarketing" },
+            { property: "og:title", content: "portfolio Damien Chapart" },
             {
               property: "og:description",
               content:
