@@ -1,7 +1,7 @@
 <template>
   <div >
     <div id="smooth-wrapper" class="font-gilroy bg-gradient-to-r from-[#16141C] to-[#09080b] text-white">
-      <section-header />
+      <section-header class="fixed" />
       <div id="smooth-content" >
         <slot />
       </div>

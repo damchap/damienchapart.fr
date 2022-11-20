@@ -1,10 +1,11 @@
 <template>
   <div >
-    <div id="smooth-wrapper" class="font-gilroy bg-gradient-to-r from-[#16141C] to-[#09080b] text-white">
-      <Section-Header />
-      <div id="smooth-content" >
+    <div id="smooth-wrapper" class="font-gilroy bg-gradient-to-r from-[#16141C] to-[#09080b] text-primaryWhite">
+      <Section-Header class="fixed"/>
+      <div id="smooth-content" class="bg-primaryWhite dark:bg-gradient-to-r dark:from-[#16141C] dark:to-[#09080b] text-primaryBlack dark:text-primaryWhite">
         <slot />
         <section-footer />
+        
       </div>
     </div>
   </div>

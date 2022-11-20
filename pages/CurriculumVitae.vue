@@ -2,7 +2,7 @@
   <div >
 
         <div class="flex flex-col container m-auto">
-          <div class="basis-2/3 text-primaryWhite  mt-80">
+          <div class="basis-2/3   mt-80">
             <div class="text-[inherit] ">
               <h1 class="font-light uppercase tracking-widTitre text-titreHeroH1">Apprenti Web Developper, Createur de site à brest</h1>
             </div>

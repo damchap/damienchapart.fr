@@ -4,11 +4,8 @@ export default defineNuxtConfig({
     modules: [
         "@nuxt/image-edge",
         "@nuxtjs/tailwindcss",
-        "@nuxtjs/web-vitals",
-        "nuxt-security",
         "~/modules/sitemap",
         "@nuxtjs/robots",
-        "nuxt-icons",
         "nuxt-icon",
         '@nuxtjs/color-mode',
         '@nuxt/content'
@@ -19,6 +16,9 @@ export default defineNuxtConfig({
     colorMode: {
       classSuffix: ''
     },
+    bodyAttrs: {
+      class: ''
+    },
       robots: {
         UserAgent: "*",
         BlankLine: true,
@@ -26,16 +26,7 @@ export default defineNuxtConfig({
       sitemap: {
         hostname: `https://dev.damienchapart.fr/sitemap.xml`,
       },
-      security: {
-        requestSizeLimiter: {
-          value: {
-            maxRequestSizeInBytes: 3000000,
-            maxUploadFileRequestInBytes: 9000000,
-          },
-          route: "/upload-file",
-        },
-        // Other options
-      },
+      
       webVitals: {
         // provider: '', // auto detectd
         debug: false,

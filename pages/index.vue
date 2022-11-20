@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white dark:bg-gradient-to-r dark:from-[#16141C] dark:to-[#09080b]">
+  <div class="">
           <section-HeroHeader />
           <main class="text-primaryBlack dark:text-white" >
             <div class="flex flex-col items-center  h-full mt-24">

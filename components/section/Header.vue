@@ -1,6 +1,6 @@
 <template>
   <header style="mix-blend-mode:difference"
-  class="fixed z-[9997]  w-full nav  navbarPW text-primary" :class="!showMobileMenu ? 'bg-primary text-white':''">
+  class=" z-[9997]  w-full nav  navbarPW text-primary" :class="!showMobileMenu ? 'bg-primary text-white':''">
     
     <nav class="py-8">
       <div class="container flex flex-wrap justify-between items-center m-auto px-3">
@@ -67,7 +67,7 @@
         <div class="flex-row hidden md:flex ">
           <nuxt-link class="px-5 text-nav hover:font-extrabold" active-class="font-extrabold" to="/CurriculumVitae">a propos
           </nuxt-link>
-          <nuxt-link class="px-5 text-nav hover:font-extrabold" active-class="font-extrabold" to="/Documentation">
+          <nuxt-link class="px-5 text-nav hover:font-extrabold" active-class="font-extrabold" to="/documentation">
             Documentation
           </nuxt-link>
           <nuxt-link class="px-5 text-nav hover:font-extrabold" active-class="font-extrabold" to="/Contact"><Icon name="uil:github" class="w-7 h-7"/></nuxt-link>
@@ -109,7 +109,6 @@
 const showMobileMenu = ref(true);
 const colorMode = useColorMode()
 colorMode.preference = 'system'
-  console.log(colorMode.preference)
 </script>
 
 <style scoped>
