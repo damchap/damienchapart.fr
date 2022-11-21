@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="mx-auto  w-full px-4 sm:px-6  max-w-7xl relative flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-8 min-h-page">
+      class="mx-auto min-h-screen w-full px-4 sm:px-6  max-w-7xl relative flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-8 min-h-page">
       <aside
         class="lg:top-[64px] hidden -mx-4 -mt-8 overflow-y-auto overflow-x-hidden pb-8 lg:sticky lg:col-span-2 lg:block lg:max-h-[calc(100vh-64px)] lg:self-start lg:pt-8">
         <nav>
@@ -47,7 +47,8 @@
             <ContentRenderer :value="doc" />
           </div>
         </article>
-      </ContentDoc>
+        
+      
       <div
         class="flex items-center lg:block sticky  px-4 -mx-4 -mt-8 toc top-[64px] lg:max-h-page sm:-mx-6 sm:px-6 lg:col-span-2 lg:mx-0 lg:self-start lg:bg-transparent lg:px-0 lg:pt-8 lg:backdrop-blur-none overflow-y-auto overflow-x-hidden"
         data-v-3342e103="">
@@ -61,33 +62,19 @@
                 d="m9 5l7 7l-7 7"></path>
             </svg></button>
           <div class="flex flex-col space-y-1 sm:space-y-2 mb-4 lg:mt-0 hidden lg:block" data-v-3342e103="">
-            <!--[-->
             <div class="items-center hidden overflow-hidden text-sm font-semibold lg:flex"><span>Table of
                 Contents</span></div>
-            <ul>
-              <!--[-->
-              <li class="min-w-0 group"><a href="#paths"
+                
+             <!-- <ul v-for="enfant of doc.excerpt.children" :key="enfant._path" >
+              <li class="min-w-0 group" v-if="enfant.tag == 'h2'">
+                <a :href="'#'+enfant.children"
                   class="u-text-gray-500 hover:u-text-gray-900 block py-1 text-sm truncate lg:pr-3">Paths</a>
-                <!---->
               </li>
-              <li class="min-w-0 group"><a href="#ordering"
-                  class="block py-1 text-sm truncate lg:pr-3 text-primary-500">Ordering</a>
-                <!---->
-              </li>
-              <li class="min-w-0 group"><a href="#ignoring"
-                  class="block py-1 text-sm truncate lg:pr-3 text-primary-500">Ignoring</a>
-                <!---->
-              </li>
-              <li class="min-w-0 group"><a href="#partials"
-                  class="block py-1 text-sm truncate lg:pr-3 text-primary-500">Partials</a>
-                <!---->
-              </li>
-              <!--]-->
-            </ul>
-            <!--]-->
+            </ul> -->
           </div>
         </div>
       </div>
+    </ContentDoc>
     </div>
   </div>
 </template>
@@ -99,3 +86,43 @@ definePageMeta({
 });
 
 </script>
+<style>
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+
+</style>

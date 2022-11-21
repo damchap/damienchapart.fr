@@ -12,6 +12,11 @@ export default defineNuxtConfig({
     ],
     content: {
       // https://content.nuxtjs.org/api/configuration
+      documentDriven: true,
+      highlight: {
+        theme: 'one-dark-pro',
+        preload: ['json', 'js', 'ts', 'html', 'css', 'vue', 'diff', 'shell', 'markdown', 'yaml', 'bash', 'ini']
+      },
     },
     colorMode: {
       classSuffix: ''
