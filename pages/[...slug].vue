@@ -6,19 +6,24 @@
         class="lg:top-[64px] hidden -mx-4 -mt-8 overflow-y-auto overflow-x-hidden pb-8 lg:sticky lg:col-span-2 lg:block lg:max-h-[calc(100vh-64px)] lg:self-start lg:pt-8">
         <nav>
           
-          <ContentNavigation v-slot="{ navigation }" :query="catsQuery">
-            
+          <ContentNavigation v-slot="{ navigation }">
             <ul>
-              
-              <li class="u-border-gray-100 hover:u-border-gray-300" v-for="link of navigation" :key="link._path">
+              <li  v-for="link of navigation" :key="link._path">
                 <NuxtLink
-                  class="u-text-gray-900 group flex w-full cursor-pointer items-center justify-between py-1.5 text-sm font-semibold"
-                  :to="link._path">{{ link.title }}</NuxtLink>
-                  <ul class="py-2">
-                    <li class="ml-2 border-l border-primary-400 dark:border-primary-600" v-for="enfant of link.children" :key="enfant._path">
-                      <NuxtLink v-if="enfant._path != link._path"
-                        class="router-link-active router-link-exact-active flex items-center justify-between py-1.5 text-sm pl-4 text-primary-500 font-medium"
-                        :to="enfant._path">{{ enfant.title }}</NuxtLink>
+                  class="u-text-gray-900 group flex w-full cursor-pointer items-center  py-1.5 text-sm font-semibold"
+                  :to="link._path"> <icon class="w-5 h-5  mr-2" :name="link.icon" /> {{ link.title }}</NuxtLink>
+                  <ul>
+                    <li class="u-border-gray-100 hover:u-border-gray-300" v-for="enfant of link.children" :key="enfant._path">
+                      <NuxtLink  v-if="enfant._path != link._path"
+                        class="u-text-gray-900 group flex w-full cursor-pointer items-center  py-1.5 text-sm font-semibold"
+                        :to="enfant._path"><icon class="w-5 h-5  mr-2" :name="enfant.icon" /> {{ enfant.title }}</NuxtLink>
+                        <ul >
+                          <li class="ml-2 border-l border-primary-400 dark:border-primary-600" v-for="enfantDeux of enfant.children" :key="enfant._path">
+                            <NuxtLink v-if="enfantDeux._path != enfant._path"
+                              class="router-link-active router-link-exact-active flex items-center  py-1.5 text-sm pl-4 text-primary-500 font-medium"
+                              :to="enfantDeux._path"> <icon class="w-5 h-5  mr-2" :name="enfantDeux.icon" />  {{ enfantDeux.title }}</NuxtLink>
+                          </li>
+                        </ul>
                     </li>
                   </ul>
               </li>
@@ -87,7 +92,6 @@
   </div>
 </template>
 <script setup lang="ts">
-const catsQuery = queryContent('cats')
 
 // use layout doc
 definePageMeta({

@@ -1,6 +1,6 @@
 <template>
   <header style="mix-blend-mode:difference"
-  class=" z-[9997]  w-full nav  navbarPW text-primaryBlack" :class="!showMobileMenu ? 'bg-primaryBlack text-white':''">
+  class=" z-[9997]  w-full nav  navbarPW text-white" :class="!showMobileMenu ? 'bg-primaryBlack text-white':''">
     
     <nav class="py-8">
       <div class="container flex flex-wrap justify-between items-center m-auto px-3">

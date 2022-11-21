@@ -1,9 +1,11 @@
 ---
-title: "Bienvenue sur ma Documentation"
-description: "Apprenons à Developer des choses incroyable."
+title: 'Bienvenue'
+description: 'Apprenons à Developer des choses incroyable.'
+navigation:
+  title: 'Bienvenue'
+  icon: 'mdi:home-circle-outline'
 ---
 
-# Content directory
 
 The Content module parses .md and .yaml files inside the content/ directory and provides paths according to the directory structure.
 
