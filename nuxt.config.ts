@@ -101,6 +101,8 @@ export default defineNuxtConfig({
             { name: "msapplication-TileImage", content: "/favicon.ico" },
             { name: "msapplication-config", content: "/favicon.ico" },
             { name: "theme-color", content: "#ffffff" },
+             
+
           ],
         },
       },

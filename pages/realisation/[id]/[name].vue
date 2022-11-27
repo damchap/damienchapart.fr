@@ -15,7 +15,7 @@
         </div>
         <h3 class="text-titreHero">
           élabiration d’un
-          <b>nouveau site.</b>
+          <strong>nouveau site.</strong>
         </h3>
         <div class="flex flex-row">
           <div class="basis-1/2">

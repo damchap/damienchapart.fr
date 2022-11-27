@@ -6,8 +6,6 @@ navigation:
   icon: 'material-symbols:home-repair-service'
 ---
 
-# titre 1
-
 ## Titre 2
 
 ### titre 3
@@ -18,20 +16,55 @@ navigation:
 
 ###### titre 6
 
+```css [main.css]
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+```
 
 Bold	**bold text**
 
 Italic	*italicized text*
 
-Blockquote	> blockquote
+> blockquote
 
-Ordered List	1. First item
+Ordered List	
+
+1. First item
 
 2. Second item
 
 3. Third item
 
-Unordered List	- First item
+Unordered List	
+
+- First item
 
 - Second item
 
@@ -61,7 +94,9 @@ export default defineEventHandler(async (event) => {
 
 
 
-Horizontal Rule	---
+Horizontal Rule	
+
+---
 
 Link	[title](https://www.example.com)
 

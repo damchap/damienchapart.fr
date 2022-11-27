@@ -23,7 +23,7 @@ export default defineComponent({
 </script>
 
 <template>
-    <div class="highlight-html relative prose-code group w-full text-gray-50 my-4">
+    <div class="highlight-html relative prose-code group w-full  text-gray-50 my-4">
       <span class="filename absolute top-1 right-1 z-0 rounded-lg py-1 pr-2 font-mono text-xs leading-none tracking-tight text-gray-400 opacity-100">{{filename}}</span>
         <slot />
     </div>
@@ -32,6 +32,8 @@ export default defineComponent({
 
 <style>
 pre {
+  
+  border-radius: 0.375rem;
   background-color: rgb(24 24 27/1);
   display: flex;
     flex: 1 1 0%;

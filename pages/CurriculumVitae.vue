@@ -33,26 +33,26 @@
           </div>
           <div class="flex flex-col space-y-6">
             <h2 class="font-light  mt-10 text-2xl txtCV">
-              Bonjour et bienvenue, je me présente <b>Damien Chapart</b>, apprenti <b>développeur web</b>,
+              Bonjour et bienvenue, je me présente <strong>Damien Chapart</strong>, apprenti <strong>développeur web</strong>,
               passionné par les nouvelles technologies et leurs facultés à améliorer la productivité des entreprises.
             </h2>
             <p class="font-light text-xl txtCV">
-              Je réalise depuis <b>plusieurs années</b>, différents projets <b>personnels</b> ou <b>professionnels</b> dans le domaine de <b>l’informatique</b>,
-              plus particulièrement dans le <b>dévelopement web</b> ainsi que <b>l’hébergement</b>.
+              Je réalise depuis <strong>plusieurs années</strong>, différents projets <strong>personnels</strong> ou <strong>professionnels</strong> dans le domaine de <strong>l’informatique</strong>,
+              plus particulièrement dans le <strong>dévelopement web</strong> ainsi que <strong>l’hébergement</strong>.
             </p>
             <p class="font-light text-xl txtCV">
-              J’ai commencé par un baccalauréat <b>STI2D</b> (Sciences et Technologies de l’Industrie et du Développement durable)
+              J’ai commencé par un baccalauréat <strong>STI2D</strong> (Sciences et Technologies de l’Industrie et du Développement durable)
               au lycée
               <nuxt-link to="https://www.likes.org" class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#22FCB0] to-[#2181FA]">
                 Le Likès La Salle.
-              </nuxt-link> Par la suite, je me suis orienté vers un <b>BTS</b> (Brevet de Technicien Supérieur )
-              SIO (Service Informatique aux Organisations ), <b>option SLAM</b> (Solution logiciel et Application Métier) à
+              </nuxt-link> Par la suite, je me suis orienté vers un <strong>BTS</strong> (Brevet de Technicien Supérieur )
+              SIO (Service Informatique aux Organisations ), <strong>option SLAM</strong> (Solution logiciel et Application Métier) à
               <nuxt-link to="https://www.saint-louis29.net/" class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#22FCB0] to-[#2181FA]">
                 Saint Louis Châteaulin
               </nuxt-link>
-              où j’ai pu acquérir de nombreuses <b>compétences et connaissances.</b>
-              Après ses deux années d’études supérieures, j’ai eu une <b>révélation</b> pour le domaine du <b>web et du design</b>. Depuis,
-              je m’implique activement dans ses domaines, ce qui m’a conduit à poursuivre ma formation en <b>licence professionnelle</b> à la
+              où j’ai pu acquérir de nombreuses <strong>compétences et connaissances.</strong>
+              Après ses deux années d’études supérieures, j’ai eu une <strong>révélation</strong> pour le domaine du <strong>web et du design</strong>. Depuis,
+              je m’implique activement dans ses domaines, ce qui m’a conduit à poursuivre ma formation en <strong>licence professionnelle</strong> à la
               <nuxt-link to="https://ladigitalschool.fr/" class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#22FCB0] to-[#2181FA]">
               digital school Brest
               </nuxt-link>
