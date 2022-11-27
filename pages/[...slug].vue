@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="mx-auto min-h-screen w-full px-4 sm:px-6  max-w-7xl relative flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-8 min-h-page">
+      class="mx-auto min-h-screen w-full px-4 sm:px-6  max-w-7xl relative flex flex-col lg:flex-row min-h-page">
       <aside
         class="lg:top-[64px] hidden -mx-4 -mt-8 overflow-y-auto overflow-x-hidden pb-8 lg:sticky lg:col-span-2 lg:block lg:max-h-[calc(100vh-64px)] lg:self-start lg:pt-8">
         <nav>
@@ -22,6 +22,13 @@
                             <NuxtLink v-if="enfantDeux._path != enfant._path"
                               class="router-link-active router-link-exact-active flex items-center  py-1.5 text-sm pl-4 text-primary-500 font-medium"
                               :to="enfantDeux._path"> <icon class="w-5 h-5  mr-2" :name="enfantDeux.icon" />  {{ enfantDeux.title }}</NuxtLink>
+                              <ul >
+                                <li class="ml-6 border-l border-primary-400 dark:border-primary-600" v-for="enfantTrois of enfantDeux.children" :key="enfantTrois._path">
+                                  <NuxtLink v-if="enfantTrois._path != enfantDeux._path"
+                                    class="router-link-active router-link-exact-active flex items-center  py-1.5 text-sm pl-4 text-primary-500 font-medium"
+                                    :to="enfantTrois._path">   {{ enfantTrois.title }}</NuxtLink>
+                                </li>
+                              </ul>
                           </li>
                         </ul>
                     </li>
@@ -34,7 +41,7 @@
       
       <ContentDoc v-slot="{ doc }">
         <article class="relative flex flex-col flex-1 pb-8 lg:mt-0 page-body lg:col-span-8 ">
-          <div class="mx-auto w-full px-4 sm:px-6 lg:px-8 max-w-4xl">
+          <div class=" w-full px-4 sm:px-6 lg:px-8 max-w-4xl">
             <div class="pb-8 lg:pb-16">
               <div
                 class="flex flex-col items-center justify-center max-w-4xl pb-4 mx-auto text-center gap-y-8 sm:px-6 lg:pb-8">
@@ -61,17 +68,17 @@
               <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="m9 5l7 7l-7 7"></path>
             </svg></button>
-          <div class="flex flex-col space-y-1 sm:space-y-2 mb-4 lg:mt-0 hidden lg:block" data-v-3342e103="">
+          <!-- <div class="flex flex-col space-y-1 sm:space-y-2 mb-4 lg:mt-0 hidden lg:block" data-v-3342e103="">
             <div class="items-center hidden overflow-hidden text-sm font-semibold lg:flex"><span>Table of
                 Contents</span></div>
                 
-             <!-- <ul v-for="enfant of doc.excerpt.children" :key="enfant._path" >
+             <ul v-for="enfant of doc.excerpt.children" :key="enfant._path" >
               <li class="min-w-0 group" v-if="enfant.tag == 'h2'">
                 <a :href="'#'+enfant.children"
                   class="u-text-gray-500 hover:u-text-gray-900 block py-1 text-sm truncate lg:pr-3">Paths</a>
               </li>
-            </ul> -->
-          </div>
+            </ul>
+          </div> -->
         </div>
       </div>
     </ContentDoc>
